@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+
+    <style>
+        body{
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        #heading{
+            color: black;
+            text-align: center;
+            font-size: 30px;
+            margin-top: 20px;
+        }
+
+        .form-box{
+            width: 350px;
+            margin: auto;
+            background-color:white;
+            padding: 20px;
+            border: 2px solid magenta ;
+        
+           
+        }
+
+        .input-box{
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+
+        .btn{
+            background-color: pink;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+          
+        }
+
+        .btn:hover{
+            background-color: magenta;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2 id="heading">ABES 2nd Year : A</h2>
+
+<div class="form-box">
+
+<form>
+
+<label>First Name:</label><br>
+<input type="text" class="input-box"><br>
+
+<label>Last Name:</label><br>
+<input type="text" class="input-box"><br>
+
+<label>Email:</label><br>
+<input type="email" class="input-box"><br>
+
+<label>Password:</label><br>
+<input type="password" class="input-box"><br>
+
+<label>Gender:</label><br>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+<br><br>
+
+<label>Contact:</label><br>
+<input type="tel" class="input-box"><br>
+
+<label>Course:</label><br>
+<input type="checkbox"> CSE<br>
+<input type="checkbox"> CSE-AIML<br>
+<input type="checkbox"> IT<br>
+<input type="checkbox"> ECE<br><br>
+
+<input type="submit" value="Submit" class="btn">
+<input type="reset" value="Reset" class="btn">
+
+</form>
+
+</div>
+
+</body>
+</html>
