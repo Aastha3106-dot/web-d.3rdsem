@@ -10,5 +10,4 @@ let english = 75;
 let science = 90;
 
 let result = calculatePercentage(math, english, science);
-
-console.log("Percentage =", result.toFixed(2) + "%");
+console.log("Percentage =", result.toFixed(2) + "%");   
