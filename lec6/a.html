@@ -1,0 +1,27 @@
+<html>
+    <body>
+        <script>
+            function addno(...numbers){
+                console.log(numbers);
+            }
+            addno(1,2,3,4,5,6,7,8,9);
+            function sum(name,...args){
+                console.log(args);
+                let total=0;
+                for(let i of args){
+                    total=total+i;
+                }
+                console.log("hello"+name);                                    
+                console.log("total ="+ total);
+            }
+            sum("aastha",10,20,30,40)
+            function sum(...values){
+                for(let i in values[i]){
+                    total=total+ numbers(values[i]);
+                };
+            
+            console.log("total ="+ total);}
+
+        </script>
+    </body>
+</html>
